@@ -644,8 +644,8 @@ video {
   width: 1.5rem;
 }
 
-.w-\[24rem\] {
-  width: 24rem;
+.w-\[20rem\] {
+  width: 20rem;
 }
 
 .w-full {
@@ -1025,10 +1025,6 @@ video {
     display: none;
   }
 
-  .sm\:w-\[20rem\] {
-    width: 20rem;
-  }
-
   .sm\:items-stretch {
     align-items: stretch;
   }
@@ -1057,8 +1053,8 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:-ml-4 {
-    margin-left: -1rem;
+  .md\:-ml-2 {
+    margin-left: -0.5rem;
   }
 
   .md\:mr-6 {
