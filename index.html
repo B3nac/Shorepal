@@ -1,0 +1,135 @@
+<html>
+<head>
+        <link href="../dist/output.css" rel="stylesheet">	
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header>
+	<nav class="bg-slate-400">
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <!-- Mobile menu button-->
+        <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="flex flex-shrink-0 items-center">
+          <img class="h-8" src="coastpal_logo.png" alt="CoastPal">
+        </div>
+        <div class="hidden sm:ml-6 sm:block">
+          <div class="flex space-x-4">
+            <a href="#" class="bg-teal-700 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Sign up for beta</a>
+          </div>
+        </div>
+      </div>
+  <!-- Mobile menu, show/hide based on menu state. -->
+  <div class="sm:hidden" id="mobile-menu">
+    <div class="space-y-1 px-2 pb-3 pt-2">
+      <a href="#" class="bg-slate-400 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Sign up for beta</a>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<body>
+<div class="overflow-hidden bg-white pt-10">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div class="lg:pr-8 lg:pt-4">
+        <div class="lg:max-w-lg">
+          <h2 class="text-base font-semibold leading-7 text-teal-600">CoastPal</h2>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A pal for the coast</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">Explore the coast with quick reference info and the ability to save your favorite fishing spots.</p>
+          <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+            <div class="relative pl-9">
+              <dt class="inline font-semibold text-gray-900">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="absolute left-1 top-1 h-5 w-5 text-teal-600">
+  <path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+</svg>
+		Save your favorite spots.
+              </dt>
+              <dd class="inline">Mark spots you have enjoyed, caught fish, crabs, clams, etc with different style pins.</dd>
+            </div>
+            <div class="relative pl-9">
+              <dt class="inline font-semibold text-gray-900">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="absolute left-1 top-1 h-5 w-5 text-teal-600">
+  <path fill-rule="evenodd" d="M15.22 6.268a.75.75 0 01.968-.432l5.942 2.28a.75.75 0 01.431.97l-2.28 5.941a.75.75 0 11-1.4-.537l1.63-4.251-1.086.483a11.2 11.2 0 00-5.45 5.174.75.75 0 01-1.199.19L9 12.31l-6.22 6.22a.75.75 0 11-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l3.606 3.605a12.694 12.694 0 015.68-4.973l1.086-.484-4.251-1.631a.75.75 0 01-.432-.97z" clip-rule="evenodd" />
+</svg>
+		Tide data.
+              </dt>
+              <dd class="inline">Quickly access tide data based on station.</dd>
+            </div>
+            <div class="relative pl-9">
+              <dt class="inline font-semibold text-gray-900">
+		      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="absolute left-1 top-1 h-5 w-5 text-teal-600">
+  <path fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z" clip-rule="evenodd" />
+</svg>
+                Keeper measurements and catch limit data.
+              </dt>
+              <dd class="inline">Quickly access measurement and catch limit data for different types of fish and crabs.</dd>
+            </div>
+          </dl>
+	  <div class="pt-5">
+		  <div id="mc_embed_shell">
+<div id="mc_embed_signup w-full max-w-xs">
+    <form action="https://skiff.us11.list-manage.com/subscribe/post?u=7b4a6a2a7c16409119637e602&amp;id=b294c6a3e6&amp;f_id=002f4ee0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-slate-200 shadow-md rounded px-8 pt-6 pb-8 mb-4" target="_self" novalidate="">
+        <div id="mc_embed_signup_scroll"><h2 class="block text-gray-700 text-md font-bold mb-2">Signup for beta</h2>
+            <div class="indicates-required pt-5 text-md font-bold"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group pt-5 text-md"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pt-5" id="mce-EMAIL" required="" value=""><span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span></div>
+        <div id="mce-responses" class="clear foot">
+            <div class="response" id="mce-error-response" style="display: none;"></div>
+            <div class="response" id="mce-success-response" style="display: none;"></div>
+        </div>
+    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+        /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+        <input type="text" name="b_7b4a6a2a7c16409119637e602_b294c6a3e6" tabindex="-1" value="">
+    </div>
+        <div class="optionalParent">
+            <div class="clear foot pt-5">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button bg-teal-600 inline-flex items-center justify-center rounded-md p-2 text-slate-100 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" value="Subscribe">
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+	  </div>
+        </div>
+      </div>
+      <div class="pl-20">
+      <img src="coastpal_image.png" alt="Product screenshot" class="w-[24rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[20rem] md:-ml-4 lg:-ml-0" width="604" height="1254">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+<footer class="bg-slate-400 rounded-lg shadow m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-900 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">CoastPal</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-900 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+</html>
+
