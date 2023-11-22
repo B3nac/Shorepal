@@ -10,4 +10,4 @@ height="80">](https://github.com/B3nac/Shorepal/releases)
 
 ### Support
 
-![Buy me a beer](./bmc_qr.png)
+![alt="Buy me a beer" height="100"](./bmc_qr.png)
