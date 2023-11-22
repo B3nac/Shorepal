@@ -11,4 +11,4 @@ height="80">](https://github.com/B3nac/Shorepal/releases)
 ### Support
 
 [<img src="./bmc_qr.png" alt="Buy me a beer"
-height="150">](https://www.buymeacoffee.com/shorepal)
+height="200">](https://www.buymeacoffee.com/shorepal)
