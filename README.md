@@ -2,7 +2,7 @@
 
 Your privacy-first fishing pal on shore and off shore.
 
-![Discord](https://img.shields.io/discord/1179539066857979945?logo=Discord&logoColor=ffffff&label=chat&labelColor=6A7EC2&link=https%3A%2F%2Fdiscord.gg%2FHNcWmU3AN8)
+[<img src="https://img.shields.io/discord/1179539066857979945?logo=Discord&logoColor=ffffff&label=chat&labelColor=6A7EC2&link=https%3A%2F%2Fdiscord.gg%2FHNcWmU3AN8">]
 
 [<img src="./obtainium.png"
 alt="Get it on Obtaininum"
